@@ -1,0 +1,14 @@
+Character encoding is the process of assigning numbers to graphical characters, especially the written characters of human language, allowing them to be stored, transmitted, and transformed using digital computers.[1] The numerical values that make up a character encoding are known as "code points" and collectively comprise a "code space", a "code page", or a "character map".
+
+Early character codes associated with the optical or electrical telegraph could only represent a subset of the characters used in written languages, sometimes restricted to upper case letters, numerals and some punctuation only. The low cost of digital representation of data in modern computer systems allows more elaborate character codes (such as Unicode) which represent most of the characters used in many written languages. Character encoding using internationally accepted standards permits worldwide interchange of text in electronic form. 
+
+Decoding is the ability to apply your knowledge of letter-sound relationships, including knowledge of letter patterns, to correctly pronounce written words. Understanding these relationships gives children the ability to recognize familiar words quickly and to figure out words they haven't seen before. Although children may sometimes figure out some of these relationships on their own, most children benefit from explicit instruction in this area. Phonics is one approach to reading instruction that teaches students the principles of letter-sound relationships, how to sound out words, and exceptions to the principles.
+
+
+The task is to write code for an encoder and decoder that implement "run length encoding". Run length encoding is a form of lossless compression in which runs of data are stored as single data value and count. The encoder and decoder should work for all alphanumeric and special characters. 
+
+For example:
+Input: aaaaaffffffffffaffff
+Compressed Output: a5f10a1f4
+
+
